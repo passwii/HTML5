@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.product {
+    border: 5px solid black;
+    margin: 20px auto;
+}
+
+.product-title {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: lightgray;
+    padding: 12px;
+}
+
+.product-price {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 0;
+    
+}
+
+.free-shipping {
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.pd-simple {
+    margin-bottom: 12px;
+}
+
+.more-info:link, .more-info:visited{
+    color:black;
+    /* margin-bottom: 50px; */
+    /* 这里面的没有任何作用 */
+}
+
+.more-info:hover, .more-info:active {
+    background-color: rgb(66, 245, 192);
+    text-decoration: none;
+}
+
+.more-info {
+    /* margin-bottom: 50px; */
+}
+
+.product-details {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+ul {
+    /* margin-top: 5px;
+    margin-bottom: 20px; */
+    margin: 10px 20px;
+    width: auto;
+}
+
+li {
+    list-style: square;
+    margin-bottom: 10px;
+    /* padding: 5px; */
+}
+
+.add-to-cart {
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+}
+
+.add-to-cart:hover {
+    /* text-decoration: black; */
+    color: black;
+    background-color: white;
+    border-top: 5px solid black;
+
+}
